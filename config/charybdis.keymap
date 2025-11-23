@@ -10,6 +10,8 @@
     quick-tap-ms = <150>;
 };
 
+&mt { flavor = "tap-preferred"; };
+
 / {
     macros {
         To1_macro: To1_macro {
@@ -34,18 +36,6 @@
                 <&to 2>,
                 <&macro_wait_time 30>,
                 <&rgb_ug RGB_COLOR_HSB(250,100,50)>;
-        };
-    };
-
-    behaviors {
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
-            bindings = <&none>, <&none>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "tap-preferred";
         };
     };
 
