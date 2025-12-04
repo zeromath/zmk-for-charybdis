@@ -44,12 +44,12 @@
 
         QWERTY {
             bindings = <
-&to 2             &kp N1       &kp N2       &kp N3        &kp N4       &kp N5         &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp BACKSPACE
-&kp TAB           &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E   &mt LS(R) R  &mt LS(T) T    &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I  &mt LS(O) O  &mt LS(P) P  &kp LEFT_BRACKET
-&kp LEFT_CONTROL  &mt LS(A) A  &mt LS(S) S  &mt LS(D) D   &mt LS(F) F  &mt LS(G) G    &mt LS(H) H  &mt LS(J) J  &mt LS(K) K  &mt LS(L) L  &kp SEMI     &kp SQT
-&kp LEFT_SHIFT    &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C   &mt LS(V) V  &mt LS(B) B    &mt LS(N) N  &mt LS(M) M  &kp COMMA    &kp DOT      &kp FSLH     &kp ENTER
-                                            &kp LEFT_WIN  &mo 1        &kp ESCAPE     &kp SPACE    &mo 3
-                                                          &mkp LCLK    &mkp RCLK      &mkp MCLK
+&mo 2             &kp C_VOLUME_UP  &kp C_VOL_DN  &kp N3        &kp N4       &kp N5         &kp N6       &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &kp N9       &kp N0       &kp BACKSPACE
+&kp TAB           &mt LS(Q) Q      &mt LS(W) W   &mt LS(E) E   &mt LS(R) R  &mt LS(T) T    &mt LS(Y) Y  &mt LS(U) U        &mt LS(I) I      &mt LS(O) O  &mt LS(P) P  &kp LEFT_BRACKET
+&kp LEFT_CONTROL  &mt LS(A) A      &mt LS(S) S   &mt LS(D) D   &mt LS(F) F  &mt LS(G) G    &mt LS(H) H  &mt LS(J) J        &mt LS(K) K      &mt LS(L) L  &kp SEMI     &kp SQT
+&kp LEFT_SHIFT    &mt LS(Z) Z      &mt LS(X) X   &mt LS(C) C   &mt LS(V) V  &mt LS(B) B    &mt LS(N) N  &mt LS(M) M        &kp COMMA        &kp DOT      &kp FSLH     &kp ENTER
+                                                 &kp LEFT_WIN  &mo 1        &kp ESCAPE     &kp SPACE    &mo 3
+                                                               &mkp LCLK    &mkp RCLK      &mkp MCLK
             >;
         };
 
@@ -66,7 +66,7 @@
 
         BT_layers {
             bindings = <
-&to 0   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans  &trans  &trans  &trans  &trans
+&none   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &bt BT_CLR_ALL  &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans        &bt BT_CLR    &trans        &trans          &bt BT_NXT  &trans  &trans  &trans  &trans  &trans
