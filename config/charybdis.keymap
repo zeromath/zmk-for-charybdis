@@ -44,12 +44,12 @@
 
         QWERTY {
             bindings = <
-&kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_AC_CUT    &kp C_AC_COPY    &kp C_AC_PASTE    &kp C_AC_UNDO  &kp C_AC_REDO  &kp C_AC_SEARCH  &kp C_AL_WWW  &kp K_REFRESH  &mo 2
-&kp TAB           &mt LS(Q) Q        &mt LS(W) W      &mt LS(E) E     &mt LS(R) R      &mt LS(T) T       &mt LS(Y) Y    &mt LS(U) U    &mt LS(I) I      &mt LS(O) O   &mt LS(P) P    &kp LEFT_BRACKET
-&kp LEFT_CONTROL  &mt LS(A) A        &mt LS(S) S      &mt LS(D) D     &mt LS(F) F      &mt LS(G) G       &mt LS(H) H    &mt LS(J) J    &mt LS(K) K      &mt LS(L) L   &kp SEMI       &kp SQT
-&kp LEFT_SHIFT    &mt LS(Z) Z        &mt LS(X) X      &mt LS(C) C     &mt LS(V) V      &mt LS(B) B       &mt LS(N) N    &mt LS(M) M    &kp COMMA        &kp DOT       &kp FSLH       &kp ENTER
-                                                      &lt 4 LEFT_GUI  &lt 1 BACKSPACE  &kp ENTER         &kp ESCAPE     &lt 5 SPACE
-                                                                      &mo 3            &mkp LCLK         &mkp RCLK
+&kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_AC_CUT  &kp C_AC_COPY    &kp C_AC_PASTE    &kp C_AC_UNDO  &kp C_AC_REDO  &kp C_AC_SEARCH  &kp C_AL_WWW  &kp K_REFRESH  &mo 2
+&kp TAB           &mt LS(Q) Q        &mt LS(W) W      &mt LS(E) E   &mt LS(R) R      &mt LS(T) T       &mt LS(Y) Y    &mt LS(U) U    &mt LS(I) I      &mt LS(O) O   &mt LS(P) P    &kp LEFT_BRACKET
+&kp LEFT_CONTROL  &mt LS(A) A        &mt LS(S) S      &mt LS(D) D   &mt LS(F) F      &mt LS(G) G       &mt LS(H) H    &mt LS(J) J    &mt LS(K) K      &mt LS(L) L   &kp SEMI       &kp SQT
+&kp LEFT_SHIFT    &mt LS(Z) Z        &mt LS(X) X      &mt LS(C) C   &mt LS(V) V      &mt LS(B) B       &mt LS(N) N    &mt LS(M) M    &kp COMMA        &kp DOT       &kp FSLH       &kp ENTER
+                                                      &kp LEFT_GUI  &lt 1 BACKSPACE  &mkp LCLK         &kp ESCAPE     &lt 5 SPACE
+                                                                    &mo 3            &mkp RCLK         &mo 4
             >;
         };
 
@@ -88,12 +88,12 @@
 
         snipe-layers {
             bindings = <
-&none  &none  &none  &none           &none         &none    &none           &none           &none         &none            &none  &none
-&none  &none  &none  &none           &none         &none    &none           &none           &none         &none            &none  &none
-&none  &none  &none  &msc SCRL_DOWN  &msc SCRL_UP  &none    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &none
-&none  &none  &none  &none           &none         &none    &none           &none           &none         &none            &none  &none
-                     &none           &none         &none    &mkp LCLK       &mkp RCLK
-                                     &none         &none    &none
+&none  &none  &none  &none  &none  &none    &none           &none           &none         &none            &none  &none
+&none  &none  &none  &none  &none  &none    &none           &none           &none         &none            &none  &none
+&none  &none  &none  &none  &none  &none    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none  &none
+&none  &none  &none  &none  &none  &none    &none           &none           &none         &none            &none  &none
+                     &none  &none  &none    &none           &none
+                            &none  &none    &none
             >;
         };
 
